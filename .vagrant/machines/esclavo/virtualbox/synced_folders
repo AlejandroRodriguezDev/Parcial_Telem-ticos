@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/vagrant/compartido":{"guestpath":"/home/vagrant/compartido","hostpath":"C:/Users/aleja/OneDrive/Escritorio/parcialTele/datos_esclavo","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"C:/Users/aleja/OneDrive/Escritorio/parcialTele","disabled":false,"__vagrantfile":true}}}

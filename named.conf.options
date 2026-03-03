@@ -1,0 +1,13 @@
+options {
+    directory "/var/cache/bind";
+
+    // Restricción de consultas recursivas (Open Resolver)
+    recursion no; 
+    allow-query { any; }; 
+
+    // Bloqueo de AXFR global (lo habilitaremos solo para el esclavo en las zonas)
+    allow-transfer { none; };
+
+    dnssec-validation auto;
+    listen-on-v6 { any; };
+};
